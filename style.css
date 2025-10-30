@@ -7,7 +7,7 @@
 .raleway-heading {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .dark-2 {
-  color: #252432;
+  color: #72737F;
 }
 
 /* Nav styles */
@@ -51,7 +51,7 @@ nav {
 .main {
   max-width: 1440px;
   margin: 0 auto;
-  text-align: center;
+  background-color: #F5F8FF;
 }
 
 /*Header design*/
@@ -82,4 +82,206 @@ nav {
 
 .banner-btn {
   margin: 37px;
+}
+
+/*Action Section*/
+
+
+.action-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+    height: 328px;
+    margin: 116px 169px 116px 141px;
+
+}
+
+.action-title{
+
+    font-weight: bold;
+    font-size: 42px;
+    padding: 0 0 23px o;
+}
+
+.action-paragraph{
+    width: 517px;
+    height: 60px;
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+}
+.action-img{
+    border-radius: 48px;
+
+}
+
+
+/* === Stats Section === */
+.stats-section {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.stats-box {
+  display: inline-block;
+  background-color: #e8e9ff;
+  padding: 60px 200px;
+  border-radius: 24px;
+}
+
+.stats-box h2 {
+  color: #1f1f1f;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.stats-numbers {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.stat-item h3 {
+  color: #4a52ff;
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stat-item p {
+  color: #666;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+
+/* Testimonial Section*/
+
+.testimonial{
+   margin: 137px 150px 137px 150px; 
+}
+
+.testi-title{
+    margin: 50px;
+}
+
+.testi-card{
+    background-color: #FAFCFF;
+    padding: 24px;
+    border-radius: 14px;
+    border: solid 1px #F2EDED;
+    text-align: left;
+    
+}
+
+.testiminial-cards-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviewer{
+    display: flex;
+    justify-content: left ;
+}
+
+.reviewer-pic{
+    border-radius: 50%;
+    background-position: center;
+    width: 25%;
+    height: 20%;
+}
+
+.reviewer-info{
+padding-left: 10px;
+row-gap: 10px;
+
+}
+
+.name-t{
+    font-weight: bold;
+    color: #72737F;
+}
+.date-t{
+    font-weight: 200;
+    font-size: 14px;
+   color: #72737F;
+}
+
+.focus-box{
+   display: block;
+    width: 1140px;
+    height: 696.77px;
+    background-color: #FAFCFF;
+    margin: auto;
+    padding: 40px 0 0 0;
+    border-radius: 14px;
+
+}
+
+.focus-content{
+    display: block;
+    text-align: center;
+}
+
+.focus-paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    color: #72737F;
+}
+
+.focus-btn{
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.focus-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+.focus-img{
+    border-radius: 48px;
+
+}
+
+/*contact-section*/
+
+.contact-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px 150px 90px 150px;
+    gap: 30px;
+
+}
+
+.contact-section input[type="text"], .contact-section input[type="email"],  .contact-section textarea {
+
+height: 64px;
+border-radius: 5px;
+background-color: white;
+width: 100%;
+padding: 10px 10px ;
+margin-bottom: 24px;
+border: none;
+
+}
+
+.Contact-heading{
+font-weight: bold;
+font-size: 97px;
+}
+
+.contact-section label{
+font-weight: normal;
+font-size: 18px;
+line-height: 120%;
+}
+
+.form-btn{
+    width: 100%;
+    margin-bottom : 5px;
 }
