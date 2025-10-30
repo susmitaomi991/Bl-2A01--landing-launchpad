@@ -285,3 +285,34 @@ line-height: 120%;
     width: 100%;
     margin-bottom : 5px;
 }
+
+
+/*footer*/
+
+.footer-content{
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-items: center ;
+    width: 1440px;
+    height: 340px;
+    background-color: white;
+    padding-top: 70px;
+
+}
+
+
+.footer-nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0;
+}
+
+
+.footer-text, .footer-pr {
+    display: block;
+    margin: auto;
+    width: 33%;
+}
